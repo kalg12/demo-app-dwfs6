@@ -26,7 +26,7 @@ import LoginPage from "../pages/LoginPage";
 
 const AppRouter = () => {
   return (
-    <Router>
+    <Router basename="/">
       <NavBar />
       <div className="container mt-5">
         <Routes>
